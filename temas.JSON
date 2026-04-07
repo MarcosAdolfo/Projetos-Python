@@ -1,0 +1,37 @@
+{
+  "classico_azul": {
+    "fundo": "#DBEAFE",
+    "carta": "#1E3A8A",
+    "carta_texto": "#FFFFFF",
+    "texto": "#1F2937",
+    "titulo": "#1E40AF"
+  },
+  "infantil_colorido": {
+    "fundo": "#FEF9C3",
+    "carta": "#FDE68A",
+    "carta_texto": "#5B21B6",
+    "texto": "#374151",
+    "titulo": "#7C3AED"
+  },
+  "verde_suave": {
+    "fundo": "#ECFDF5",
+    "carta": "#A7F3D0",
+    "carta_texto": "#065F46",
+    "texto": "#1F2937",
+    "titulo": "#047857"
+  },
+  "rosa_divertido": {
+    "fundo": "#FFF1F2",
+    "carta": "#FBCFE8",
+    "carta_texto": "#9D174D",
+    "texto": "#3F3F46",
+    "titulo": "#BE185D"
+  },
+  "laranja_energetico": {
+    "fundo": "#FFF7ED",
+    "carta": "#FDBA74",
+    "carta_texto": "#7C2D12",
+    "texto": "#44403C",
+    "titulo": "#EA580C"
+  }
+}
