@@ -32,11 +32,11 @@ def init_jogo(nome:str, tema, tamanho:int, janela_menu):
     janela.configure(bg=cor_tema['fundo'])
 
     # Titulo jogo
-    titulo = tk.Label(janela,text=nome_jogo,fg=cor_tema['titulo'],font=("Arial", 20, "bold"))
+    titulo = tk.Label(janela,text=nome_jogo,fg=cor_tema['titulo'],bg=cor_tema['fundo'],font=("Arial", 20, "bold"))
     titulo.grid(row=0, column=0, columnspan=tamanho_grid)
 
     #placar
-    label_jogadas = tk.Label(janela, text="Jogadas : 0", font=("Arial", 18, "bold"), fg=cor_tema['texto'])
+    label_jogadas = tk.Label(janela, text="Jogadas : 0", font=("Arial", 18, "bold"), fg=cor_tema['texto'], bg=cor_tema['fundo'])
     label_jogadas.grid(row=1, column=0, columnspan=tamanho_grid)
 
     #reinicia
@@ -48,7 +48,7 @@ def init_jogo(nome:str, tema, tamanho:int, janela_menu):
               ).grid(row=tamanho+3, column=tamanho_grid//2, columnspan=tamanho_grid//2)
 
     #Texto de vitoria
-    label_status = tk.Label(janela, text="", font=("Arial", 20, "bold"), fg="#f1c40f")
+    label_status = tk.Label(janela, text="", font=("Arial", 20, "bold"), fg="#f1c40f", bg=cor_tema['fundo'])
     label_status.grid(row=+2, column=0, columnspan=tamanho_grid)
 
     #cartas
